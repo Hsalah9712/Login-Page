@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>تسجيل الدخول</title>
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <nav class="navbar" id="navbar">
+        <div class="right">
+            <a href="#"><img src="assets/images/logo.png" alt="Logo" class="logo"></a>
+        </div>
+        <div class="left">
+            <select id="language-select">
+                <option value="English"><a href="#">English</a></option>
+                <option value="Arabic"><a href="#">Arabic</a></option>
+            </select> <i class="ri-global-line"></i>
+        </div>
+    </nav>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <form class="form" action="#" method="post" onsubmit="return validateForm()">
+            <div class="login__title">
+                <h2>تسجيل الدخول</h2>
+            </div>
+
+            <hr>
+
+            <div class="inputs">
+                <input type="text" placeholder="رقم الهوية" id="login-email">
+                <input type="password" placeholder="كلمة المرور" id="login-pass">
+            </div>
+
+            <div class="actions">
+                <span><input type="checkbox"> تذكرني</span>
+                <a href="#" class="login__forgot">نسيت كلمة المرور؟</a>
+            </div>
+
+            <button type="submit" class="login__button button">تسجيل</button>
+
+            <p>أو</p>
+
+            <div>
+                <h1>NIC</h1>
+                <span>مركز المعلومات الوطني</span>
+                <span>National Information Center</span>
+            </div>
+
+            <button type="button" class="login button">الدخول عبر النفاذ الوطني الموحد</button>
+
+            <a href="#signup" class="signup">تسجيل مستخدم جديد</a>
+        </form>
+
+        <div class="image__container">
+            <img src="assets/images/الشعار.png" alt="Image" class="image">
+        </div>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+        تطوير عمادة الأتصالات وتقنية المعلومات <br>
+        جميع الحقوق محفوظة لجامعة حفرالباطن &copy; 2023
+    </footer>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
